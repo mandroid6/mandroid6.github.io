@@ -1,6 +1,6 @@
 ---
 published: true
-title: Machine Learning
+title: Machine Learning - I
 layout: post
 ---
 ![](/images/ml_regression.JPG)  	
