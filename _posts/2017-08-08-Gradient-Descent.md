@@ -101,10 +101,10 @@ Since we are required to calculate gradient for the whole dataset for performing
 
 Psuedocode for batch gradient descent:  
 
-```
+```python
 for j in range(nb_epochs):
 	grad_params = calculate_gradient(cost_function, training_data, params)
-    params = params - learning_rate * grad_params
+    	params = params - learning_rate * grad_params
   
 ```
  
@@ -117,11 +117,11 @@ In stochastic gradient descent performs an update for each training example. Bat
 
 Psuedocode for stochastic gradient descent:  
 
-```
+```python
 for j in range(nb_epochs):
 	for example_i in data:
 		grad_params = calculate_gradient(cost_function, example_i, params)
-    	params = params - learning_rate * grad_params
+    		params = params - learning_rate * grad_params
   
 ```  
  
@@ -134,11 +134,12 @@ Like in batch gardient descnt we consider the entire training set before each up
 
 Psuedocode for mini-batch gradient descent:  
 
-```
+```python
 for j in range(nb_epochs):
-	for example_i in data:
-		grad_params = calculate_gradient(cost_function, example_i, params)
-    	params = params - learning_rate * grad_params
+  np.random.shuffle(data)
+  for batch in get_batches(data, batch_size=20):
+  	grad_params = evaluate_gradient(loss_function, batch, params)
+	params = params - learning_rate * grad_params
   
 ```  
  
@@ -148,4 +149,4 @@ Such an implementation reduces the variance of paramters, which inturn can lead 
   
   
   
-> Stay tuned for more machine learning and neural network insight!
+> Stay tuned for more machine learning and neural networks insight!
