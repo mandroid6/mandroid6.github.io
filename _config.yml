@@ -24,13 +24,15 @@ paginate:         1
 version:          1.0.0
 
 github:
-  repo:           github.com/mandroid6/mandroid6.github.io
+  repo:           github.com/mandroid6/mandroid6.github.io  
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
-  About: '/about/'
   Archive: '/archive/'
-  Feed: '/atom.xml'
+  GitHub: 'https://github.com/mandroid6'
+  MOOCS: '/moocs'
+  Resume: '/assets/resume.pdf'
+  About: '/about/'
 
 # Allow URL Redirects: 
 #  * https://help.github.com/articles/redirects-on-github-pages
