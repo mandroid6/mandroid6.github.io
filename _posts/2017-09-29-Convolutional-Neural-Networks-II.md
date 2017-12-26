@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part - II
+title: CNN Part - II
 published: true
 ---
 ![](/images/cnn1.png)   
