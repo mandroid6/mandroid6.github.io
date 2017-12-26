@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine Learning
+title: Machine Learning - I
 published: true
 ---
 ![](/images/ml_classify.JPG)  
