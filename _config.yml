@@ -9,14 +9,14 @@ highlighter:         true
 permalink:        pretty
 
 # Setup
-title:            Joshua Lande
-tagline:          'Data Science, Apache Pig, Hadoop, Blogging, Tweets, Astrophysics'
+title:            Mandar Deshpande
+tagline:          'Machine Learning Researcher'
 url:              http://www.mandroid6.github.io
 shorturl:         mandroid6.github.io
 
 author:
-  name:           'Joshua Lande'
-  url:            https://twitter.com/joshualande
+  name:           'Mandar Deshpande'
+  url:            https://www.linkedin.com/in/mandardeshpande1995/
 
 paginate:         1
 
