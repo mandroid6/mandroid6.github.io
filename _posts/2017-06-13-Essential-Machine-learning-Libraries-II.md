@@ -266,7 +266,7 @@ So based on the value of ```n_neighbors``` giving the ```best_score_```, our knn
 **Randomized Parameter Optimization**
 ```python
 from sklearn.grid_search import RandomizedSearchCV 
-parameters = {"n_eighbors": range(1,5), "weights"" ["uniform", "distance"]}
+parameters = {"n_eighbors": range(1,5), "weights", ["uniform", "distance"]}
 rsearch = RandomizedSearchCV(estimator = knn, param_distributions = parameters, cv = 4, n_iter = 8, random_state = 5)
 rsearch.fit(X_train, y_train)
 print(rsearch.best_score_)
