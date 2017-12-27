@@ -56,7 +56,7 @@ Here, ``` nc``` is the number of channels in the input image and ```nf``` are th
 
 ## VI. One layer of convolution network 
 
-If we consider one layer of a convolution network without the components (without pooling layer and flattening) then it will appear close to this:  
+If we consider one layer of a convolution network without the pooling layer and flattening, then it will appear close to this:  
 
 ![](/images/cnn8.png)  
 
@@ -68,4 +68,4 @@ One of the key functions here is the ```RELU``` activation function, which is re
 
 For values which are below a certain threshold ( here 0), the relu function doesn't update the parameters at all. It simply dies. For a particular training example to be considered for training, it needs to have a set minimum value for the neuron to be activated. Also Relu helps us reduce the vanishing and exploding gradient problem faced in most deep neural network, as Relu provides efficient gradient propogation.
 
-> Will be adding other sections of teh post soon!
+> Will be adding other sections of the post soon!
