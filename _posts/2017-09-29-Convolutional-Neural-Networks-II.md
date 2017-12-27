@@ -13,6 +13,7 @@ Continuing our learning from the last post,we will be covering the following top
 IV. Convolution over volume  
 V. Multiple filters at one time  
 VI. One layer of convolution network  
+VII. Understanding the dimensional change
 
 I have tried to explain most topics through illustrations as much as possible. If something isn't easy to understand please ping me.
 
@@ -66,6 +67,16 @@ One of the key functions here is the ```RELU``` activation function, which is re
 
 ![](/images/cnn9.png)  
 
-For values which are below a certain threshold ( here 0), the relu function doesn't update the parameters at all. It simply dies. For a particular training example to be considered for training, it needs to have a set minimum value for the neuron to be activated. Also Relu helps us reduce the vanishing and exploding gradient problem faced in most deep neural network, as Relu provides efficient gradient propogation.
+For values which are below a certain threshold ( here 0), the relu function doesn't update the parameters at all. It simply dies. For a particular training example to be considered for training, it needs to have a set minimum value for the neuron to be activated. Also Relu helps us reduce the vanishing and exploding gradient problem faced in most deep neural network, as Relu provides efficient gradient propogation.  
 
+
+## VII. Understanding the dimensional change
+
+Now that we have got a conceptual understanding of what is happening in a single layer, lets formulize a outline for a any given layer ```l``` of a convolution network.
+
+![](/images/cnn10.png)  
+
+After computing individual components dimension the final dimension ```n``` of layer ```l``` can be calculated using:
+
+![](/images/cnn11.png)  
 > Will be adding other sections of the post soon!
