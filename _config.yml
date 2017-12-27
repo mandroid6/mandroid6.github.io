@@ -29,7 +29,6 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:       
   Archive: '/archive/'
-  Feed: '/atom.xml'
   GitHub: 'https://github.com/mandroid6'
   MOOCS: '/moocs'
   Resume: '/assets/resume.pdf'
