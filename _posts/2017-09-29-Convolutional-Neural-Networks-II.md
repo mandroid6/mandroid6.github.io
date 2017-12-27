@@ -54,6 +54,9 @@ The output dimension can be calculated for any general case using the following 
 
 Here, ``` nc``` is the number of channels in the input image and ```nf``` are the number of filters used.
 
+## VI. One layer of convolution network 
+
+![](/images/cnn8.png)
 
 
 > Will be adding other sections of teh post soon!
