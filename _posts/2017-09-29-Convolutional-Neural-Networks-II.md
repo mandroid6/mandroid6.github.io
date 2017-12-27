@@ -56,7 +56,16 @@ Here, ``` nc``` is the number of channels in the input image and ```nf``` are th
 
 ## VI. One layer of convolution network 
 
-![](/images/cnn8.png)
+If we consider one layer of a convolution network without the components (without pooling layer and flattening) then it will appear close to this:  
 
+![](/images/cnn8.png)  
+
+It is important to understand that like in any other neural network, a convolutional neural network also has the input data ```x``` which is an image here and model weights given by the filters F1 and F2 i.e. ```W```. Once the weights and the input image is convolved we get the weighted output ``` W * x``` and then we add the bias ```b```.  
+
+One of the key functions here is the ```RELU``` activation function, which is rectified linear unit. Relu helps us add non-linearity to the learning model and helps us better train/ learn the model weights for the generalized case. 
+
+![](/images/cnn9.png)  
+
+For values which are below a certain threshold ( here 0), the relu function doesn't update the parameters at all. It simply dies. For a particular training example to be considered for training, it needs to have a set minimum value for the neuron to be activated. Also Relu helps us reduce the vanishing and exploding gradient problem faced in most deep neural network, as Relu provides efficient gradient propogation.
 
 > Will be adding other sections of teh post soon!
