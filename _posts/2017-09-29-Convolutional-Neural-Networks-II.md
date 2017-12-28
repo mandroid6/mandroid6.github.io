@@ -2,7 +2,7 @@
 layout: post
 title: CNN Part - II
 published: true
-permalink: convolutional-neural-networks-II
+permalink: convolutional-neural-networks-ii
 ---
 ![](/images/cnn1.png)   
 
