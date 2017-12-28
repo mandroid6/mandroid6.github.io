@@ -9,11 +9,11 @@ Before we jump into the full convolutional neural network, lets first understand
 
 This post will take the following approach to explainations :  
 
-I. [Convolution - The Concept  ](##convolution-the-concept)  
-II. [Convolutional Neural Network](##convolutional-neural-network)  
-III. [Strided Convolutions](##strided-convolutions)  
+- [Convolution Concept](##convolution-the-concept)
+- [Convolutional Neural Network](##convolutional-neural-network)
+- [Strided Convolutions](##strided-convolutions)
 
-## I. Convolution - The Concept  
+## Convolution Concept  
 
 For those of you who have taken a class/course on digital signal/image processing, would be comfortable with the concept of covolution. For the rest of us, let quickly run through the concept, so that we can dive into the actual ```cnn``` implementation.  
 
@@ -33,7 +33,7 @@ Now all the **masks** can show the required effect on the image if they are conv
 For better understanding of convolution please refer to this [post](http://aishack.in/tutorials/image-convolution-examples/).  
 
 
-## II. Convolutional Neural Network 
+## Convolutional Neural Network 
 
 
 ![](/images/cnn2.png)  
@@ -51,7 +51,7 @@ To put it in a quanitifiable form, every CNN has the following components/layers
  We will dive deeper into the details of each of the above layers in subsequent posts.  
  
  
-## III. Strided Convolutions
+## Strided Convolutions
 
 When we are dealing with convolution on images of very large size, its not always required to convolve over each and every pixel of an image. So we can set the subsequent convolutions to be shifted by more than one pixel in either the vertical or horizontal axis.   
 
