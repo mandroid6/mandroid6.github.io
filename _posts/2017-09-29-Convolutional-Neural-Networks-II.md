@@ -8,7 +8,7 @@ published: true
 
 Hello guys!  
 
-Continuing our learning from the [last post](https://mandroid6.github.io/2017/09/19/Convolutional-Neural-Networks/) we will be covering the following topics in this post:
+Continuing our learning from the [last post](https://mandroid6.github.io/2017/09/19/Convolutional-Neural-Networks-I/) we will be covering the following topics in this post:
 
 - Convolution over volume  
 - Multiple filters at one time  
