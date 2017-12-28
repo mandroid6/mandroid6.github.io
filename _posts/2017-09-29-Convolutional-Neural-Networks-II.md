@@ -3,7 +3,7 @@ layout: post
 title: CNN Part - II
 published: true
 redirect_from: "2017/09/29/Convolutional-Neural-Networks-II/"
-permalink: Convolutional-Neural-Networks-II
+permalink: convolutional-neural-networks-II
 ---
 ![](/images/cnn1.png)   
 
