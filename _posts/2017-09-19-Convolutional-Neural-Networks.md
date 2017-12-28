@@ -9,9 +9,9 @@ Before we jump into the full convolutional neural network, lets first understand
 
 This post will take the following approach to explainations :  
 
-- [Convolution Concept](##convolution-the-concept)
-- [Convolutional Neural Network](##convolutional-neural-network)
-- [Strided Convolutions](##strided-convolutions)
+- Convolution Concept
+- Convolutional Neural Network
+- Strided Convolutions
 
 ## Convolution Concept  
 
