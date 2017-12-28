@@ -2,14 +2,14 @@
 layout: post
 title: CNN Part - II
 published: true
-permalink: convolutional-neural-networks-ii
+permalink: convolutional-neural-networks-II
 ---
 ![](/images/cnn1.png)   
 
 
 Hello guys!  
 
-Continuing our learning from the last post,we will be covering the following topics in this post:
+Continuing our learning from the [last post](https://mandroid6.github.io/2017/09/19/Convolutional-Neural-Networks/) we will be covering the following topics in this post:
 
 - Convolution over volume  
 - Multiple filters at one time  
