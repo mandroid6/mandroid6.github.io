@@ -15,7 +15,7 @@ url:              http://www.mandroid6.github.io
 shorturl:         mandroid6.github.io
 
 author:
-  name:           'Mandar Deshpande'
+  name:           'Mandar Deshpande'  
   url:            https://www.linkedin.com/in/mandardeshpande1995/
 
 paginate:         1
@@ -25,7 +25,7 @@ version:          1.0.0
 
 github:
   repo:           github.com/mandroid6/mandroid6.github.io  
-
+ 
 # This is the list of pages to include in the header of the website.
 pages_list:       
   Archive: '/archive/'
