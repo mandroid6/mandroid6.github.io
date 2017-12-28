@@ -66,7 +66,7 @@ If we have an image of dimension ``` n x n``` with a padding ```p```, which is c
 
 
 
-> Let's continue the learning in the next post
+Link to [part II](https://mandroid6.github.io/2017/09/29/Convolutional-Neural-Networks-II/
 
 
 PS: In the mathematical covolution operation we flip one of the signals being convolved i.e. like viewed in a mirror. The operation we are using above is actually cross-correlation, but generally in deep learning convolution is the term used for it!   
