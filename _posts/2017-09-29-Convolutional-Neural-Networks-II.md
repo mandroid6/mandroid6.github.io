@@ -10,17 +10,17 @@ Hello guys!
 
 Continuing our learning from the last post,we will be covering the following topics in this post:
 
-IV. Convolution over volume  
-V. Multiple filters at one time  
-VI. One layer of convolution network  
-VII. Understanding the dimensional change
+- Convolution over volume  
+- Multiple filters at one time  
+- One layer of convolution network  
+- Understanding the dimensional change
 
 I have tried to explain most topics through illustrations as much as possible. If something isn't easy to understand please ping me.
 
 > Let's get started!
 
 
-## IV. Convolution over volume  
+## Convolution over volume  
 
 Don't be scared to read 'volume', its just a way of saying images with more than one channel i.e. ```RGB``` or any other channels.  
 
@@ -39,7 +39,7 @@ Below is a simple example of convolution over volume, of an image having dimensi
 In the given example the purpose of the filter is to detect vertical edges. If the edge needs to be detected only in the ```R``` channel,then only the weights in ```R ``` channel need to set for the requirement.
 If you need to detect vertical edges across all channels, then all filter channels will have the same weight as demonstrated above.
 
-## V. Multiple filters at one time  
+## Multiple filters at one time  
 
 There is a high chance that you may need to extract alot of different features from an image, for which you will use multiple filters. If individual filters are convolved separately,it will increase the computation time and so its more convenient to use all required filters at a time directly.  
 
@@ -55,7 +55,7 @@ The output dimension can be calculated for any general case using the following 
 
 Here, ``` nc``` is the number of channels in the input image and ```nf``` are the number of filters used.
 
-## VI. One layer of convolution network 
+## One layer of convolution network 
 
 If we consider one layer of a convolution network without the pooling layer and flattening, then it will appear close to this:  
 
@@ -70,7 +70,7 @@ One of the key functions here is the ```RELU``` activation function, which is re
 For values which are below a certain threshold ( here 0), the relu function doesn't update the parameters at all. It simply dies. For a particular training example to be considered for training, it needs to have a set minimum value for the neuron to be activated. Also Relu helps us reduce the vanishing and exploding gradient problem faced in most deep neural network, as Relu provides efficient gradient propogation.  
 
 
-## VII. Understanding the dimensional change
+## Understanding the dimensional change
 
 Now that we have got a conceptual understanding of what is happening in a single layer, lets formulize a outline for a any given layer ```l``` of a convolution network.
 
@@ -79,4 +79,7 @@ Now that we have got a conceptual understanding of what is happening in a single
 After computing individual components dimension the final dimension ```n``` of layer ```l``` can be calculated using:
 
 ![](/images/cnn11.png)  
+
+
+
 > Will be adding other sections of the post soon!
