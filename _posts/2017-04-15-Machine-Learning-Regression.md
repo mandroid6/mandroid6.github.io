@@ -13,7 +13,7 @@ Assume you have some labelled training data consisting of various housing prices
 
 Each x’s represents a unique house with its corresponding price and square footage.  
 
-Even though our data is scattered over the space of the graph, still it follows some basic pattern: here the prices increase as the size does. So we want our learning algorithm to do this prediction for us. i.e. we supply the square footage and the algorithm gives out prices.
+Even though our data is scattered over the space of the graph, still it follows some basic pattern: here the prices increase as the size does. So we want our learning algorithm to do this prediction for us i.e. we supply the square footage and the algorithm gives out prices.
 
 The generally visible trend would be a diagonal passing through the mean (x, y) positions of the data. Every such line which give a sufficiently good fit to the data, is called a ```predictor```.  
 
