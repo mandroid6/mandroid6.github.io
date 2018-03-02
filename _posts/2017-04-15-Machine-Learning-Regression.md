@@ -5,7 +5,7 @@ layout: post
 ---
 ![](/images/ml_regression.JPG)  	
 
-Now after considering the previous example of classification, let’s explore regression.  
+Now after considering the [previous example of classification](https://mandroid6.github.io/2017/04/03/Machine-Learning-Classification/), let’s explore regression.  
 
 Assume you have some labelled training data consisting of various housing prices based on their square footage. Now if we plot our data we may get something like this:
 
