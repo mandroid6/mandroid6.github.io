@@ -1,6 +1,7 @@
 ---
 published: true
 title: Machine Learning - II
+comments: true
 layout: post
 ---
 ![](/images/ml_regression.JPG)  	
