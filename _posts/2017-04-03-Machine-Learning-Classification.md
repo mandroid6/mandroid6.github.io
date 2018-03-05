@@ -72,7 +72,7 @@ No issue at all! Simply increase the complexity of your learning algorithm and y
 ![](/images/class3.PNG)  
   
 
-While our algorithm does a good job at classifying the set of fruit images we give it into the 2 categories, we are assuming that the same will work for any image.  
+While our algorithm does a good job at classifying the set of fruit images we give it into the 2 categories, we are assuming that the same will work for any image. Also it needs to be considered that as we increase the complexity we are also paving way for overfitting, but more about it later.  
 So to rephrase it:
 > Once our algorithm has learnt from the given set of orange and guava images, it has the ability to generalize its experience to images of guava and oranges it hasn't yet encountered
  
