@@ -64,7 +64,7 @@ As you have seen above the core working of any number of layers of perceptrons s
 
 However as the number of input parameters and their effect on the output becomes more complex, these perceptrons just fall prey to the drawbacks of linearity.  
 
-<b> Explaination <b/>  
+<b> Explaination </b>  
 We want to develop a learning method which predicts correct output based on inputs with robustness. By robustness I mean, simple or very small changes in inputs shouldn't significantly change our outputs.  
 
 Due to the presence of thresholds in perceptrons, our outputs may significantly changed even due to some minor deflection in our input values. AND THIS IS NOT WHAT WE WANT!  
