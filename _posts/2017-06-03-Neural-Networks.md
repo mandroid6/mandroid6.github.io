@@ -7,7 +7,7 @@ http://neuralnetworksanddeeplearning.com/chap2.html
 http://news.mit.edu/2017/explained-neural-networks-deep-learning-0414
 http://www.holehouse.org/mlclass/
 https://techcrunch.com/2017/04/13/neural-networks-made-easy/
-
+https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks
 Hi guys,  
 
 After having gotten a basic understanding of machine learning( [part 1](https://mandroid6.github.io/2017/04/03/Machine-Learning-Classification/) and [part 2](https://mandroid6.github.io/2017/04/15/Machine-Learning-Regression/)) and (gradient descent)[https://mandroid6.github.io/2017/05/05/Gradient-Descent/], I think its time to dive into a more complex learning paradigm called neural networks. Though there are many other machine learning algorithms like k-means and SVM, but my primary area of interest in in deep learning whose main tools of trade are neural network (in fact the deep ones).
