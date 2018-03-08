@@ -1,6 +1,7 @@
 ---
 published: true
 title: Gradient Descent
+comments: true
 layout: post
 ---
 ![](/images/gradient_descent.png)  
