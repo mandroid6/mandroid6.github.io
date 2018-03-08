@@ -32,7 +32,7 @@ dataset = pd.read_csv('Dataset.csv')  #modified as per need
 X = dataset.iloc[:,input_indexes].values
 y = dataset.iloc[:,label_indexes].values
 ```
-
+ 
 ## 2.  Preprocessing the data  
 
 So the first step in solving any machine learning problem is to **divide the dataset into training and test set**.  
