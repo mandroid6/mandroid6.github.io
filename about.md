@@ -28,5 +28,6 @@ All your suggestion and help will be useful, so don't hold back! :D
 
 ### Contact me
 
-[mandar061095@gmail.com](mailto:mandar061095@gmail.com)
-[LinkedIn Profile](https://www.linkedin.com/in/mandardeshpande1995/)
+[mandar061095@gmail.com](mailto:mandar061095@gmail.com)  
+
+[LinkedIn](https://www.linkedin.com/in/mandardeshpande1995/)
