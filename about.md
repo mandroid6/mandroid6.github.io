@@ -16,7 +16,7 @@ Worked with SCILAB as a part of Google Summer of Code 2017, for developing a ml 
 ## Current Engagement
 Currently researching PixelCNN based pixel wise image completion models in collboration with IVPL Lab, Northwestern University, and publishing my work on this blog so that it can reach a wider audience. Tensorflow and keras for developing cnn and rnns.   
   
-Also developing a deep understanding of PyTorch by working through tutorials and implementing models from scratch. Got selected as an ** International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```. Hence very pysched and working towards gaining an indepth knowledge of implementation rather than theory! 
+Also developing a deep understanding of PyTorch by working through tutorials and implementing models from scratch. Got selected as an **International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```. Hence very pysched and working towards gaining an indepth knowledge of implementation rather than theory! 
 
 
 All your suggestion and help will be useful, so don't hold back! :D  
@@ -29,3 +29,4 @@ All your suggestion and help will be useful, so don't hold back! :D
 ### Contact me
 
 [mandar061095@gmail.com](mailto:mandar061095@gmail.com)
+[LinkedIn Profile](https://www.linkedin.com/in/mandardeshpande1995/)
