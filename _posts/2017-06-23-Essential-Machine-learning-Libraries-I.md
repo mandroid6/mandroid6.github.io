@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Essential Machine learning Libraries - I
+comments: true
 published: true
 ---
 ![](/images/scipy_post.JPG)
