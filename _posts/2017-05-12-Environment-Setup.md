@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setup Python Environment for ml and Deep Learning
+comments: true
 published: true
 ---
 ![](/images/anaconda.png)
