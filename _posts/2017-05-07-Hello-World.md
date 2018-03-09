@@ -22,4 +22,4 @@ Project Page - [https://summerofcode.withgoogle.com/projects/#6738686042439680](
 
 So lets stay connected and be ready for more updates on this blog-site.
 
-$$c = \pm\sqrt{a^2 + b^2}$$
+
