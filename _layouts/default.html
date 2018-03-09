@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <script type="text/javascript">
-$("script[type='math/tex']").replaceWith(
-  function(){
-    var tex = $(this).text();
-    return "<span class=\"inline-equation\">" + 
-           katex.renderToString(tex) +
-           "</span>";
-});
-
-$("script[type='math/tex; mode=display']").replaceWith(
-  function(){
-    var tex = $(this).text();
-    return "<div class=\"equation\">" + 
-           katex.renderToString("\\displaystyle "+tex) +
-           "</div>";
-});
-</script>
+ 
 
   {% include head.html %}
   {% include google_analytics.html %}
@@ -48,3 +32,20 @@ $("script[type='math/tex; mode=display']").replaceWith(
 
   </body>
 </html>
+<script type="text/javascript">
+$("script[type='math/tex']").replaceWith(
+  function(){
+    var tex = $(this).text();
+    return "<span class=\"inline-equation\">" + 
+           katex.renderToString(tex) +
+           "</span>";
+});
+
+$("script[type='math/tex; mode=display']").replaceWith(
+  function(){
+    var tex = $(this).text();
+    return "<div class=\"equation\">" + 
+           katex.renderToString("\\displaystyle "+tex) +
+           "</div>";
+});
+</script>
