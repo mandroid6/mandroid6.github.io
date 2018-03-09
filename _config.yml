@@ -5,7 +5,7 @@ kramdown:
   math_engine: mathjax
 
 highlighter:         rouge
-
+ 
 # Permalinks
 permalink:        pretty
 
