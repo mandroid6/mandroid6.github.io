@@ -26,78 +26,71 @@ The core functionality of NumPy is its "ndarray", for n-dimensional array, data 
 
 ### Array creation
 ```python
->>> import numpy as np
->>> x = np.array([1, 2, 3])
->>> x
+ import numpy as np
+ x = np.array([1, 2, 3])
+ x
 ```
-array([1, 2, 3])
+Output - ```array([1, 2, 3])```
 ```python
->>> y = np.arange(10)  # like Python's range, but returns an array
->>> y
+ y = np.arange(10)  # like Python's range, but returns an array
+ y
 ```
-array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+Output - ```array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])```
 
 ### Basic operations
 ```python
->>> a = np.array([1, 2, 3, 6])
->>> b = np.linspace(0, 2, 4)  # create an array with four equally spaced points starting with 0 and ending with 2.
->>> c = a - b
->>> c
+ a = np.array([1, 2, 3, 6])
+ b = np.linspace(0, 2, 4)  # create an array with four equally spaced points starting with 0 and ending with 2.
+ c = a - b
+ c
 ```
-array([ 1., 1.33333333, 1.66666667,  4.])
+Output - ```array([ 1., 1.33333333, 1.66666667,  4.])```
 ```python
->>> a**2
+ a**2
 ```
-array([ 1, 4, 9, 36])
+Output - ```array([ 1, 4, 9, 36])```
 
 ### Universal Functions
 ```python
->>> a = np.linspace(-np.pi, np.pi, 100) 
->>> b = np.sin(a)
->>> c = np.cos(a)
+ a = np.linspace(-np.pi, np.pi, 100) 
+ b = np.sin(a)
+ c = np.cos(a)
 ```
 
 ### Linear Algebra
 ```python
->>> from numpy.random import rand
->>> from numpy.linalg import solve, inv
->>> a = np.array([[1, 2, 3], [3, 4, 6.7], [5, 9.0, 5]])
->>> a.transpose()
+ from numpy.random import rand
+ from numpy.linalg import solve, inv
+ a = np.array([[1, 2, 3], [3, 4, 6.7], [5, 9.0, 5]])
+ a.transpose()
 ```
-array([[ 1. ,  3. ,  5. ],
+Output - ```array([[ 1. ,  3. ,  5. ],
        [ 2. ,  4. ,  9. ],
-       [ 3. ,  6.7,  5. ]])
+       [ 3. ,  6.7,  5. ]])```
 ```python       
->>> inv(a)
+ inv(a)
 ```
-array([[-2.27683616,  0.96045198,  0.07909605],
+Output - ```array([[-2.27683616,  0.96045198,  0.07909605],
        [ 1.04519774, -0.56497175,  0.1299435 ],
-       [ 0.39548023,  0.05649718, -0.11299435]])
+       [ 0.39548023,  0.05649718, -0.11299435]])```
 ```python        
->>> b =  np.array([3, 2, 1])
->>> solve(a, b)  # solve the equation ax = b
+ b =  np.array([3, 2, 1])
+ solve(a, b)  # solve the equation ax = b
 ```
-array([-4.83050847,  2.13559322,  1.18644068])
+Output - ```array([-4.83050847,  2.13559322,  1.18644068])```
 ```python 
->>> c = rand(3, 3) * 20  # create a 3x3 random matrix of values within [0,1] scaled by 20
->>> c
+ c = rand(3, 3) * 20  # create a 3x3 random matrix of values within [0,1] scaled by 20
+ c
 ```
-array([[  3.98732789,   2.47702609,   4.71167924],
+Output - ```array([[  3.98732789,   2.47702609,   4.71167924],
        [  9.24410671,   5.5240412 ,  10.6468792 ],
-       [ 10.38136661,   8.44968437,  15.17639591]])
+       [ 10.38136661,   8.44968437,  15.17639591]])```
 ```python        
->>> np.dot(a, c)  # matrix multiplication
+ np.dot(a, c)  # matrix multiplication
 ```
-array([[  53.61964114,   38.8741616 ,   71.53462537],
+Output - ```array([[  53.61964114,   38.8741616 ,   71.53462537],
        [ 118.4935668 ,   86.14012835,  158.40440712],
-       [ 155.04043289,  104.3499231 ,  195.26228855]])
-```python        
->>> a @ c # Starting with Python 3.5 and NumPy 1.10
-```
-array([[  53.61964114,   38.8741616 ,   71.53462537],
-       [ 118.4935668 ,   86.14012835,  158.40440712],
-       [ 155.04043289,  104.3499231 ,  195.26228855]])
-
+       [ 155.04043289,  104.3499231 ,  195.26228855]])```
 
 For more detailed examples and tutorials follow this [link](http://cs231n.github.io/python-numpy-tutorial/).
 
@@ -140,33 +133,33 @@ It provides an object-oriented API for embedding plots into applications using g
 
 ### Line Plot
 ```python
->>> import matplotlib.pyplot as plt
->>> import numpy as np
->>> a = np.linspace(0,10,100)
->>> b = np.exp(-a)
->>> plt.plot(a,b)
->>> plt.show()
+ import matplotlib.pyplot as plt
+ import numpy as np
+ a = np.linspace(0,10,100)
+ b = np.exp(-a)
+ plt.plot(a,b)
+ plt.show()
 ```
 ![](/images/line_plot.png)
 
 ### Histogram
 ```python
->>> import matplotlib.pyplot as plt
->>> from numpy.random import normal,rand
->>> x = normal(size=200)
->>> plt.hist(x,bins=30)
->>> plt.show()
+ import matplotlib.pyplot as plt
+ from numpy.random import normal,rand
+ x = normal(size=200)
+ plt.hist(x,bins=30)
+ plt.show()
 ```
 ![](/images/hist_plot.png)
 
 ### Scatter Plot
 ```python
->>> import matplotlib.pyplot as plt
->>> from numpy.random import rand
->>> a = rand(100)
->>> b = rand(100)
->>> plt.scatter(a,b)
->>> plt.show()
+ import matplotlib.pyplot as plt
+ from numpy.random import rand
+ a = rand(100)
+ b = rand(100)
+ plt.scatter(a,b)
+ plt.show()
 ```
 ![](/images/scatter_plot.png)
 
@@ -193,31 +186,31 @@ Some sample examples:
   
 ### Creating data  
 ```python
->>> from pandas import DataFrame, read_csv
->>> import pandas as pd
->>> from numpy.random import rand
->>> names = ['Bob','Jessica','Mary','John','Mel']
->>> births = [968, 155, 77, 578, 973]
+ from pandas import DataFrame, read_csv
+ import pandas as pd
+ from numpy.random import rand
+ names = ['Bob','Jessica','Mary','John','Mel']
+ births = [968, 155, 77, 578, 973]
 ```
 
   
 ### Merging 2 lists using zip function  
 ```python
->>> BabyDataSet = list(zip(names,births))
->>> BabyDataSet
+ BabyDataSet = list(zip(names,births))
+ BabyDataSet
 ```
-[('Bob', 968), ('Jessica', 155), ('Mary', 77), ('John', 578), ('Mel', 973)]
+Output - ``` [('Bob', 968), ('Jessica', 155), ('Mary', 77), ('John', 578), ('Mel', 973)]```
 
 ### Creating dataframe object for storing data in a manner similar to sql
 ```python
->>> df = pd.DataFrame(data = BabyDataSet, columns=['Names', 'Births'])
+ df = pd.DataFrame(data = BabyDataSet, columns=['Names', 'Births'])
 ```
 
 ### Importing and dividing dataset
 ```python
->>> dataset = pd.read_csv('Dataset_name.csv')  #modified as per need
->>> X = dataset.iloc[index of input values].values
->>> y = dataset.iloc[index of target/ouput values].values
+ dataset = pd.read_csv('Dataset_name.csv')  #modified as per need
+ X = dataset.iloc[index of input values].values
+ y = dataset.iloc[index of target/ouput values].values
 ```
 
 For more detailed examples and tutorials follow this [link](https://pandas.pydata.org/pandas-docs/stable/10min.html). Also [this](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.cfJ29OY) is a great article for a quick walkthrough.   
