@@ -22,9 +22,9 @@ This post will encompass only the libraries majorly used for data importing, pre
 Numpy library adds support for multidimentional arrays and matrices in a manner similar to MATLAB. Along with a large collection of high-level mathematical functions to operate on these arrays.
 The core functionality of NumPy is its "ndarray", for n-dimensional array, data structure.
 
-Sample Operations:
+## Sample Operations:
 
-Array creation
+### Array creation
 ```python
 >>> import numpy as np
 >>> x = np.array([1, 2, 3])
@@ -37,7 +37,7 @@ array([1, 2, 3])
 ```
 array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
-Basic operations
+### Basic operations
 ```python
 >>> a = np.array([1, 2, 3, 6])
 >>> b = np.linspace(0, 2, 4)  # create an array with four equally spaced points starting with 0 and ending with 2.
@@ -50,14 +50,14 @@ array([ 1., 1.33333333, 1.66666667,  4.])
 ```
 array([ 1, 4, 9, 36])
 
-Universal Functions
+### Universal Functions
 ```python
 >>> a = np.linspace(-np.pi, np.pi, 100) 
 >>> b = np.sin(a)
 >>> c = np.cos(a)
 ```
 
-Linear Algebra
+### Linear Algebra
 ```python
 >>> from numpy.random import rand
 >>> from numpy.linalg import solve, inv
@@ -138,7 +138,7 @@ Matplotlib is a Python plotting library which produces publication quality figur
 
 It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to closely resemble that of MATLAB.  
 
-Line Plot
+### Line Plot
 ```python
 >>> import matplotlib.pyplot as plt
 >>> import numpy as np
@@ -149,7 +149,7 @@ Line Plot
 ```
 ![](/images/line_plot.png)
 
-Histogram
+### Histogram
 ```python
 >>> import matplotlib.pyplot as plt
 >>> from numpy.random import normal,rand
@@ -159,7 +159,7 @@ Histogram
 ```
 ![](/images/hist_plot.png)
 
-Scatter Plot
+### Scatter Plot
 ```python
 >>> import matplotlib.pyplot as plt
 >>> from numpy.random import rand
@@ -191,7 +191,7 @@ Few of the important features of pandas are :
 
 Some sample examples:  
   
-Creating data  
+### Creating data  
 ```python
 >>> from pandas import DataFrame, read_csv
 >>> import pandas as pd
@@ -201,28 +201,26 @@ Creating data
 ```
 
   
-Merging 2 lists using zip function  
+### Merging 2 lists using zip function  
 ```python
 >>> BabyDataSet = list(zip(names,births))
 >>> BabyDataSet
 ```
 [('Bob', 968), ('Jessica', 155), ('Mary', 77), ('John', 578), ('Mel', 973)]
 
-Creating dataframe object for storing data in a manner similar to sql
+### Creating dataframe object for storing data in a manner similar to sql
 ```python
 >>> df = pd.DataFrame(data = BabyDataSet, columns=['Names', 'Births'])
 ```
 
-Importing and dividing dataset
+### Importing and dividing dataset
 ```python
 >>> dataset = pd.read_csv('Dataset_name.csv')  #modified as per need
 >>> X = dataset.iloc[index of input values].values
 >>> y = dataset.iloc[index of target/ouput values].values
 ```
 
-For more detailed examples and tutorials follow this [link](https://pandas.pydata.org/pandas-docs/stable/10min.html). Also [this](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.cfJ29OY) is a great article for a quick walkthrough.  
-
-
+For more detailed examples and tutorials follow this [link](https://pandas.pydata.org/pandas-docs/stable/10min.html). Also [this](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.cfJ29OY) is a great article for a quick walkthrough.   
 
 Till now we have covered major python libraries required for importing and preprocessing data before actual machine learning model creation. 
 
