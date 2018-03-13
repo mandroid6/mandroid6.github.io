@@ -10,9 +10,9 @@ published: true
 
 Hello guys,
 
-Now that you have covered the some basics of theory behind [Machine](https://mandroid6.github.io/2017/04/03/Machine-Learning-Classification/) [learning](https://mandroid6.github.io/2017/04/15/Machine-Learning-Regression/) through the previous posts([1](https://mandroid6.github.io/2017/04/03/Machine-Learning-Classification/) [2](https://mandroid6.github.io/2017/04/15/Machine-Learning-Regression/)), it's time to jump into some essential python libraries used for implementing ML and/or data science projects.
+Now that you have covered the some basics of the theory behind [Machine](https://mandroid6.github.io/2017/04/03/Machine-Learning-Classification/) [learning](https://mandroid6.github.io/2017/04/15/Machine-Learning-Regression/) through the previous posts([1](https://mandroid6.github.io/2017/04/03/Machine-Learning-Classification/) ,[2](https://mandroid6.github.io/2017/04/15/Machine-Learning-Regression/)), it's time to jump into some essential python libraries used for implementing ML and/or data science projects.
 
-Python being the choice of most developers, its essential to know the major data science and ml/deep learning libraries in python with their purpose and usecase. Though R is also be by many industry researchers for analytics and data science, my experience in this domain is limited to python.  
+Python being the choice of most developers, major data science and ml/deep learning libraries used have been developed in Python. Though R is also be by many industry researchers for analytics and data science, my experience in this domain is limited to python.  
 
 This post will encompass only the libraries majorly used for data importing, preprocessing and visualization. The libraries used for ml model creation will be covered in the next post. 
 
