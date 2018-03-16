@@ -16,7 +16,7 @@ Since most of these libraries were built to be used on Linux (Ubuntu etc), its e
 So below are the steps to get you up and running for ml and deep learning development on Windows:
 
 ### Step 1: Download Anaconda Distribution 
-for your version of system 32bit or 64bit from [here](https://www.continuum.io/downloads)
+For your version of system 32bit or 64bit from [here](https://www.continuum.io/downloads)
 Its better to select the version for Python 3.6 or 3.5.x since Tensorflow is yet only available for Python 3.5.
 
 ![](/images/setup_1.JPG)
