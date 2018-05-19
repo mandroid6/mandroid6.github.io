@@ -10,8 +10,9 @@ I am Mandar Deshpande from Nagpur, India. A Visvesvaraya National Institute of T
 
 ## Past work/Research
 Mostly worked on my projects using Java and MATLAB(+Simulink), and have been working on Machine learning since the 3rd year of my engineering.  
-Worked with SCILAB as a part of Google Summer of Code 2017, for developing a ml toolbox.  
-<a href="https://summerofcode.withgoogle.com/projects/#6738686042439680">Project page</a>
+
+Worked with SCILAB as a part of Google Summer of Code 2017, for developing a ml toolbox.<a href="https://summerofcode.withgoogle.com/projects/#6738686042439680">Project page</a>  
+
 Developed a deep understanding of PyTorch by implementing models from scratch. Got selected as an **International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```. Hence very pysched and working towards gaining an indepth knowledge of implementation rather than theory! 
 
 ## Current Engagement
