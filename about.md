@@ -29,5 +29,5 @@ All your suggestion and help will be useful, so don't hold back! :D
 ### Contact me
 
 [mandar061095@gmail.com](mailto:mandar061095@gmail.com)  
-
+[Medium](https://medium.com/@razzormandar)
 [LinkedIn](https://www.linkedin.com/in/mandardeshpande1995/)
