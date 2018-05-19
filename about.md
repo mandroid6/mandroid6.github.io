@@ -6,7 +6,7 @@ published: true
 ---
 ## Introduction
 Hey there! 
-I am Mandar Deshpande from Nagpur, India. A Visvesvaraya National Institute of Technology graduate in Electrical And Electronics Engineering, I don't specifically have a CS background, but have strong implementation and conceptual knowledge of core CS.  
+I am Mandar Deshpande from Nagpur, India. A Visvesvaraya National Institute of Technology graduate in Electrical And Electronics Engineering, my research interests lie in machine learning with a focus on deep learning for vision tasks. 
 
 ## Past work/Research
 Mostly worked on my projects using Java and MATLAB(+Simulink), and have been working on Machine learning since the 3rd year of my engineering.  
@@ -29,5 +29,5 @@ All your suggestion and help will be useful, so don't hold back! :D
 ### Contact me
 
 [mandar061095@gmail.com](mailto:mandar061095@gmail.com)  
-[Medium](https://medium.com/@razzormandar)
+[Medium](https://medium.com/@razzormandar)  
 [LinkedIn](https://www.linkedin.com/in/mandardeshpande1995/)
