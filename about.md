@@ -21,15 +21,13 @@ Google Summer of Code 2018 -
 - [Scilab Mentor](https://summerofcode.withgoogle.com/projects/#4959724454281216): Mentoring student for the development of machine learnign toolbox in Scilab, to extend my last year's jupyter integration for remote script execution
 - [Gensim Mentor](https://summerofcode.withgoogle.com/projects/#4788943535472640): Co-mentor for the Neural networks for Similarity Learning in Gensim toolkit(under Numfocus) 
 
-
-All your suggestion and help will be useful, so don't hold back! :D  
-
 ## Learning moto
 >Only persistence fuels my learning engines and the dream to become an actual ml engineer one day!  
   
 
 
 ### Contact me
+All your suggestion and help will be useful, so don't hold back! :D  
 
 [mandar061095@gmail.com](mailto:mandar061095@gmail.com)  
 [Medium](https://medium.com/@razzormandar)  
