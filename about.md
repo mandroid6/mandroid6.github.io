@@ -23,7 +23,7 @@ Google Summer of Code 2018 -
 - [Gensim Mentor](https://summerofcode.withgoogle.com/projects/#4788943535472640): Co-mentor for the Neural networks for Similarity Learning in Gensim toolkit(under Numfocus) 
 
 ## Learning moto
->Only persistence fuels my learning engines and the dream to become an actual ml engineer one day!  
+>Only persistence fuels my learning engines and the dream to become a ml engineer one day!  
   
 
 
