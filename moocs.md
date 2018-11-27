@@ -22,7 +22,7 @@ Below is alist of most of the courses I have taken and completed:
 11. **```CS229 - Machine Learning``` on Stanford Online**
 12. **```Neural Networks by University of Toronto (Prof. Geoffrey Hinton)``` on Coursera**
 13. **```Practical Deep Learning for Coders Part 1 v1(TensorFlow) & v2(PyTorch)``` by fast.ai**
-14. **```Cutting Edge Deep Learning for Coders Part 2 v2(PyTorch)``` by fast.ai** (ONGOING)
+14. **```Cutting Edge Deep Learning for Coders Part 2 v2(PyTorch)``` by fast.ai** 
 
 
 Will be adding brief course descriptions soon.
