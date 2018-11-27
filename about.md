@@ -8,19 +8,20 @@ published: true
 Hey there! 
 I am Mandar Deshpande from Nagpur, India. A Visvesvaraya National Institute of Technology graduate in Electrical And Electronics Engineering, my research interests lie in machine learning with a focus on deep learning for vision tasks. 
 
+Currently working as a Machine Learning Developer at Citi to solve NLP and CV use cases.
+
 ## Past work/Research
-Mostly worked on my projects using Java and MATLAB(+Simulink), and have been working on Machine learning since the 3rd year of my engineering.  
+Mostly worked on my projects using Java and MATLAB(+Simulink), and have been working on machine learning since the 3rd year of college. 
 
-Worked with SCILAB as a part of Google Summer of Code 2017, for developing a ml toolbox.<a href="https://summerofcode.withgoogle.com/projects/#6738686042439680">Project page</a>  
+ - Worked with SCILAB as a part of Google Summer of Code 2017, for developing a ml toolbox.<a href="https://summerofcode.withgoogle.com/projects/#6738686042439680">Project page</a>  
 
-Developed a deep understanding of PyTorch by implementing models from scratch. Got selected as an **International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```. Hence very pysched and working towards gaining an indepth knowledge of implementation rather than theory! 
+ - Developed a deep understanding of PyTorch by implementing models from scratch. Got selected as an **International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```
 
-## Current Engagement
-Currently researching PixelCNN based pixel wise image completion models in collboration with IVPL Lab, Northwestern University, and publishing my work on this blog so that it can reach a wider audience. Tensorflow and keras for developing cnn and rnns.   
+- Researched PixelCNN based pixel wise image completion models in collboration with IVPL Lab, Northwestern University. Utilized Tensorflow and keras to develop residual networks.   
   
-Google Summer of Code 2018 -   
-- [Scilab Mentor](https://summerofcode.withgoogle.com/projects/#4959724454281216): Mentoring student for the development of machine learnign toolbox in Scilab, to extend my last year's jupyter integration for remote script execution
-- [Gensim Mentor](https://summerofcode.withgoogle.com/projects/#4788943535472640): Co-mentor for the Neural networks for Similarity Learning in Gensim toolkit(under Numfocus) 
+- Google Summer of Code 2018 -   
+  - [Scilab Mentor](https://summerofcode.withgoogle.com/projects/#4959724454281216): Mentoring student for the development of machine learnign toolbox in Scilab, to extend my last year's jupyter integration for remote script execution
+  - [Gensim Mentor](https://summerofcode.withgoogle.com/projects/#4788943535472640): Co-mentor for the Neural networks for Similarity Learning in Gensim toolkit(under Numfocus) 
 
 ## Learning moto
 >Only persistence fuels my learning engines and the dream to become a ml engineer one day!  
