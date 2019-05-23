@@ -8,7 +8,7 @@ published: true
 Hey there! 
 I am Mandar Deshpande from Nagpur, India. A Visvesvaraya National Institute of Technology graduate in Electrical And Electronics Engineering, my research interests lie in machine learning with a focus on deep learning for vision tasks. 
 
-Currently working as a Machine Learning Developer at Citi to solve NLP and CV use cases.
+Currently working as a Machine Learning Engineer at Citi to solve NLP and CV use cases.
 
 ## Past work/Research
 Mostly worked on my projects using Java and MATLAB(+Simulink), and have been working on machine learning since the 3rd year of college. 
