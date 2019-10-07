@@ -22,11 +22,11 @@ My research interests are in deep learning for vision/nlp and reinforcement lear
   - [Scilab Mentor](https://summerofcode.withgoogle.com/projects/#4959724454281216): Mentored [Soumitra Agrawal](https://www.linkedin.com/in/soumitra-agarwal/) (student) in the development of machine learning toolbox for [Scilab](https://www.scilab.org), to extend my GSoC 2017's work on jupyter integration for remote script execution
   - [Gensim Mentor](https://summerofcode.withgoogle.com/projects/#4788943535472640): Co-mentor to [Aneesh Joshi](https://www.linkedin.com/in/aneeshyjoshi/) on the neural networks for similarity learning research for [Gensim](https://radimrehurek.com/gensim/), a topic modelling and nlp toolkit (under Numfocus) 
   
-  - **Google Summer of Code 2017**: Worked with [Scilab](https://www.scilab.org) to develop a modular ml toolbox, which allowed remote execution of python model traning over network and inference on local machine<a href="https://summerofcode.withgoogle.com/projects/#6738686042439680">Project page</a>  
+- **Google Summer of Code 2017**: Worked with [Scilab](https://www.scilab.org) to develop a modular ml toolbox, which allowed remote execution of python model traning over network and inference on local machine<a href="https://summerofcode.withgoogle.com/projects/#6738686042439680">Project page</a>  
 
-  - Developed a deep understanding of PyTorch by implementing models from scratch. Got selected as an **International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```
+- Developed a deep understanding of PyTorch by implementing models from scratch. Got selected as an **International Fellow** for fast.ai's ```Cutting Edge Deep Learning for Coder Part 2 v2```
 
-  - Researched PixelCNN based pixel wise image completion models in collboration with IVPL Lab, Northwestern University. Utilized Tensorflow and keras to develop residual networks.   
+- Researched PixelCNN based pixel wise image completion models in collboration with IVPL Lab, Northwestern University. Utilized Tensorflow and keras to develop residual networks.   
 
 ## Learning moto
 >Only persistence fuels my learning engines and the dream to become a ml engineer one day!  
