@@ -27,6 +27,19 @@ version:          1.0.0
 github:
   repo:           github.com/mandroid6/mandroid6.github.io  
  
+ 
+footer-links:
+  dribbble:
+  email: mandar6@ucla.edu
+  facebook: Mandar.Deshpande.6
+  flickr:
+  github: mandroid6
+  instagram: mandroid6
+  linkedin: mandardeshpande1995/
+  pinterest:
+  twitter: mandroid_6
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: MandarDeshpande6
 # This is the list of pages to include in the header of the website.
 pages_list:       
   Archive: '/archive/'
