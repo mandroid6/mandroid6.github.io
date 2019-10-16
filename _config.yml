@@ -28,7 +28,7 @@ version:          1.0.0
 github:
   repo:           github.com/mandroid6/mandroid6.github.io  
  
- 
+     
 footer-links:
   dribbble:
   email: mandar6@ucla.edu
@@ -48,7 +48,7 @@ pages_list:
   MOOCS: '/moocs'
   Resume: '/assets/resume.pdf'
   About: '/about/'
-
+  
 # Allow URL Redirects: 
 #  * https://help.github.com/articles/redirects-on-github-pages
 gems:
