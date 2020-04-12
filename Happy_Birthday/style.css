@@ -50,6 +50,13 @@
   text-align: center;
 }
 
+#blogs-title {
+  color: blue;
+  font-family: fantasy;
+  font-size: 22pt;
+  text-align: center;
+}
+
 #inside-pic {
   width: 150px;
   height: 100px;
