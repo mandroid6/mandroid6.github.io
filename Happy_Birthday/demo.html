@@ -18,13 +18,13 @@ Article: https-medium-com-hackyroot-happy-birthday-using-aframe-9d2f0d177853
         <a-asset-item id="cake-mtl" src="https://cdn.rawgit.com/HackyRoot/A-Frame-Examples/c6a977a7/Happy_Birthday/assets/cake.mtl"></a-asset-item>
         <a-asset-item id="brush" src="https://cdn.rawgit.com/HackyRoot/A-Frame-Examples/c6a977a7/Happy_Birthday/assets/brush.json"></a-asset-item>
         <!-- we've commnted it because it takes too much time to download and play this audio file       -->    
-        <audio id="bday" src="https://github.com/mandroid6/mandroid6.github.io/blob/master/Happy_Birthday/assets/hbd_clue.mp3"></audio> 
+        <audio id="bday" src="https://github.com/mandroid6/mandroid6.github.io/blob/master/Happy_Birthday/assets/hbd_clue.mp3" preload="auto"></audio> 
         
     </a-assets>
 
-
+    <a-sound src="#bday" autoplay></a-sound>
     <a-marker preset="hiro">
-        <a-sound src="#bday" autoplay></a-sound>
+        
         <a-obj-model src="#cake-obj" mtl="#cake-mtl" rotation="60 30 -180" scale="1 0.5 1"></a-obj-model>
         <a-entity rotation="0 0 0">
             <a-entity position="0 0 90" particle-system="preset: default; color:#f9e154; accelerationValue: 0, -10, 0; particleCount: 2000; direction: -1; rotationAxis: z; rotation:-90, 0 0"></a-entity>        
