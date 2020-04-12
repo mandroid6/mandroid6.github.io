@@ -15,7 +15,7 @@
 
 #outside-title {
   color: blue;
-  font-family: Arial;
+  font-family: fantasy;
   font-size: 30pt;
   text-align: center;
 }
@@ -27,7 +27,7 @@
 
 #outside-help {
   color: black;
-  font-family: Courier;
+  font-family: fantasy;
   font-size: 12pt;
   text-align: center;
   padding: 20px;
@@ -44,7 +44,7 @@
 
 #inside-title {
   color: blue;
-  font-family: Arial;
+  font-family: fantasy;
   font-size: 22pt;
   text-align: center;
 }
@@ -56,12 +56,13 @@
 
 #message {
   color: green;
-  font-family: Arial;
+  font-family: fantasy;
   font-size: 14pt;
   text-align: center;
 }
 
 button {
   background: silver;
+  font-size: 15;
 }
 
