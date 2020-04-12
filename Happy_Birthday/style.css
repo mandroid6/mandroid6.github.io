@@ -33,14 +33,6 @@
   padding: 20px;
 }
 
-#childhood {
-  z-index: 0;
-  position: absolute;
-  background-color: #4f4f4f;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
 
 #inside {
   z-index: 0;
@@ -69,6 +61,30 @@
   font-size: 14pt;
   text-align: center;
 }
+
+#childhood {
+  z-index: 0;
+  position: absolute;
+  background-color: #4f4f4f;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#blogs {
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+  z-index: 0;
+  position: absolute;
+  background-color: #4f4f4f;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
 
 button {
   background: silver;
