@@ -17,9 +17,9 @@ Article: https-medium-com-hackyroot-happy-birthday-using-aframe-9d2f0d177853
         <a-asset-item id="cake-obj" src="https://cdn.rawgit.com/HackyRoot/A-Frame-Examples/c6a977a7/Happy_Birthday/assets/cake.obj"></a-asset-item>
         <a-asset-item id="cake-mtl" src="https://cdn.rawgit.com/HackyRoot/A-Frame-Examples/c6a977a7/Happy_Birthday/assets/cake.mtl"></a-asset-item>
         <a-asset-item id="brush" src="https://cdn.rawgit.com/HackyRoot/A-Frame-Examples/c6a977a7/Happy_Birthday/assets/brush.json"></a-asset-item>
-        <!-- we've commnted it because it takes too much time to download and play this audio file           
-        <audio id="bday" src="https://cdn.rawgit.com/HackyRoot/A-Frame-Examples/c6a977a7/Happy_Birthday/assets/bday.mp3"></audio> 
-        -->
+        <!-- we've commnted it because it takes too much time to download and play this audio file       -->    
+        <audio id="bday" src="https://github.com/mandroid6/mandroid6.github.io/blob/master/Happy_Birthday/assets/hbd_clue.mp3"></audio> 
+        
     </a-assets>
 
 
@@ -34,7 +34,9 @@ Article: https-medium-com-hackyroot-happy-birthday-using-aframe-9d2f0d177853
                   scale="0.5 0.5 0.5"
                   text-geometry="value: Happy Birthday Aayushi!; font: #brush" sound="src:#bday; autoplay: true; loop: true; on:click">
             </a-entity>
+            
         </a-entity>
+        <a-sound src="#bday"></a-sound>
     </a-marker>
 
 </a-scene>
