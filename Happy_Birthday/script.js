@@ -13,7 +13,7 @@ function open_childhood() {
 
 function close_childhood() {
    document.getElementById('childhood').className = 'open-card';
-  document.getElementById('outside').className = '';
+  document.getElementById('inside').className = '';
 }
 
 function open_blog() {
