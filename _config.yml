@@ -42,10 +42,10 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: MandarDeshpande6
 # This is the list of pages to include in the header of the website.
-pages_list:       
+pages_list:
+  Medium: 'https://towardsdatascience.com/@razzormandar'
   Archive: '/archive/'
   GitHub: 'https://github.com/mandroid6'
-  MOOCS: '/moocs'
   Resume: '/assets/resume.pdf'
   About: '/about/'
   
