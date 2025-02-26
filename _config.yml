@@ -11,7 +11,7 @@ permalink:        pretty
 
 # Setup
 title:            Mandar Deshpande
-tagline:          'Machine Learning Engineer'
+tagline:          'Systems Machine Learning Engineer'
 url:              http://www.mandroid6.github.io
 shorturl:         mandroid6.github.io
 
@@ -31,7 +31,7 @@ github:
      
 footer-links:
   dribbble:
-  email: mandar6@ucla.edu
+  email: razzormandar@gmail.com
   facebook: Mandar.Deshpande.6
   flickr:
   github: mandroid6
@@ -43,10 +43,9 @@ footer-links:
   youtube: MandarDeshpande6
 # This is the list of pages to include in the header of the website.
 pages_list:
-  Medium: 'https://towardsdatascience.com/@razzormandar'
+  Medium: 'https://medium.com/@razzormandar'
   Archive: '/archive/'
   GitHub: 'https://github.com/mandroid6'
-  Resume: '/assets/resume.pdf'
   About: '/about/'
   
 # Allow URL Redirects: 
