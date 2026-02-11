@@ -22,7 +22,7 @@ published: true
 
 <div class="experience-item" markdown="1">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Meta_Platforms_Inc._logo_%28cropped%29.svg" alt="Meta" class="company-logo">**Systems ML Engineer @ Meta** <span class="experience-date">(2022 -- 2025)</span>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg" alt="Meta" class="company-logo">**Systems ML Engineer @ Meta** <span class="experience-date">(2022 -- 2025)</span>
 
 - Contributing to **Triton GPU compiler + PyTorch** integrations with optimizations for GPU kernels (FlashAttention v2, FlexAttention) targeting H100 and B200 GPUs
 - Developing pure PyTorch-based preprocessing transforms for internal customers (Ads, IG, MRS, Feed) and handling model serialization, model splitting, and export via TorchScript and FX-trace
@@ -48,7 +48,7 @@ Designed and deployed anomaly detection models in PyTorch for manufacturing defe
 
 <div class="experience-item" markdown="1">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Citi_logo_March_2023.svg" alt="Citi" class="company-logo">**Machine Learning Engineer @ Citi** <span class="experience-date">(2017--2019)</span>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Citi_logo_March_2023.svg" alt="Citi" class="company-logo">**Machine Learning Engineer @ Citi** <span class="experience-date">(2017--2019)</span>
 
 Solved NLP and CV use cases using deep learning and traditional vision techniques. Utilized NLP for parsing financial documents and extracting relevant information.
 
