@@ -488,8 +488,11 @@ tbody tr:nth-child(odd) th {
 /* Experience items */
 .experience-item {
   margin-bottom: var(--spacing-lg);
-  padding-left: var(--spacing-md);
+  padding: var(--spacing-md);
   border-left: 2px solid var(--color-border);
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
 }
 
 .experience-item:hover {
@@ -499,6 +502,33 @@ tbody tr:nth-child(odd) th {
 .experience-item h3 {
   margin-top: 0;
   font-size: 1rem;
+}
+
+.company-logo {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin: 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.experience-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-content p:first-child {
+  margin-top: 0;
+}
+
+.experience-content ul {
+  margin-bottom: 0;
+}
+
+.experience-date {
+  color: var(--color-text-secondary);
+  font-weight: 400;
 }
 
 /* ============================================

@@ -11,13 +11,13 @@ permalink:        pretty
 
 # Setup
 title:            Mandar Deshpande
-tagline:          'Systems Machine Learning Engineer'
+tagline:          'Model Optimization Engineer'
 url:              http://www.mandroid6.github.io
 shorturl:         mandroid6.github.io
 
 author:
   name:           'Mandar Deshpande'
-  url:            https://www.linkedin.com/in/mandardeshpande1995/
+  url:            https://www.linkedin.com/in/mandroid6/
 
 
 paginate:         1
@@ -36,7 +36,7 @@ footer-links:
   flickr:
   github: mandroid6
   instagram: mandroid6
-  linkedin: mandardeshpande1995/
+  linkedin: mandroid6/
   pinterest:
   twitter: mandroid_6
   stackoverflow:
