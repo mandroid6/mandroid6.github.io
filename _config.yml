@@ -3,9 +3,9 @@ markdown:         kramdown
 kramdown:
   extensions: ["tables"]
   math_engine: mathjax
-     
+
 highlighter:         rouge
- 
+
 # Permalinks
 permalink:        pretty
 
@@ -16,19 +16,19 @@ url:              http://www.mandroid6.github.io
 shorturl:         mandroid6.github.io
 
 author:
-  name:           'Mandar Deshpande'  
+  name:           'Mandar Deshpande'
   url:            https://www.linkedin.com/in/mandardeshpande1995/
 
 
 paginate:         1
 
 # Custom vars
-version:          1.0.0
+version:          2.0.0
 
 github:
-  repo:           github.com/mandroid6/mandroid6.github.io  
- 
-     
+  repo:           github.com/mandroid6/mandroid6.github.io
+
+
 footer-links:
   dribbble:
   email: razzormandar@gmail.com
@@ -39,16 +39,18 @@ footer-links:
   linkedin: mandardeshpande1995/
   pinterest:
   twitter: mandroid_6
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow:
   youtube: MandarDeshpande6
-# This is the list of pages to include in the header of the website.
+
+# Navigation
 pages_list:
-  Medium: 'https://medium.com/@razzormandar'
-  Archive: '/archive/'
-  GitHub: 'https://github.com/mandroid6'
   About: '/about/'
-  
-# Allow URL Redirects: 
+  Archive: '/archive/'
+  Courses: '/moocs/'
+  Medium: 'https://medium.com/@razzormandar'
+  GitHub: 'https://github.com/mandroid6'
+
+# Allow URL Redirects:
 #  * https://help.github.com/articles/redirects-on-github-pages
 gems:
   - jekyll-redirect-from

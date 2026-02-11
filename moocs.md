@@ -1,30 +1,25 @@
 ---
 layout: page
-title: MOOCs Taken
+title: Courses
 permalink: /moocs/
 published: true
 ---
 
-My interest in machine learning and neural networks led me to take up multiple online courses. I believe that online learning has given me opportunities and skills over and above what was possible for me to acquire as a EE undergrad.  
+My interest in machine learning and neural networks led me to take up multiple online courses. Online learning has given me opportunities and skills over and above what was possible as an EE undergrad.
 
-Below is alist of most of the courses I have taken and completed:
-
-1.  **```Creative Application of Deep Learning - I``` on Kadenze**
-2.	**```Improving Deep Neural Networks by DeepLearning.ai``` on Coursera**
-3.	**```Structuring Machine Learning Projects by DeepLearning.ai``` on Coursera**
-4.	**```Neural Networks and Deep Learning by DeepLearning.ai``` on Coursera** 
-5.	**```Machine Learning by Stanford University(Prof. Andrew Ng)``` on Coursera**  			      
-6.	**```Programming for Everybody (Python) by University of Michigan``` on Coursera**	 
-7.	**```Digital Image and Video Processing by Northwestern University``` on Coursera**
-8.	**```Machine Learning A-Z™: Hands-On Python & R In Data Science``` on Udemy**
-9.  **```Convolutional Neural Networks by DeepLearning.ai``` on Coursera**
-10. **```Practical Data Structures and Algorithms in Java``` on Udemy**
-11. **```CS229 - Machine Learning``` on Stanford Online**
-12. **```Neural Networks by University of Toronto (Prof. Geoffrey Hinton)``` on Coursera**
-13. **```Practical Deep Learning for Coders Part 1 v1(TensorFlow) & v2(PyTorch)``` by fast.ai**
-14. **```Cutting Edge Deep Learning for Coders Part 2 v2(PyTorch)``` by fast.ai** 
-
-
-Will be adding brief course descriptions soon.
-
->> Stay tuned!
+<ol class="course-list">
+  <li>Creative Application of Deep Learning - I <span class="text-muted text-sm">on Kadenze</span></li>
+  <li>Improving Deep Neural Networks by DeepLearning.ai <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Structuring Machine Learning Projects by DeepLearning.ai <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Neural Networks and Deep Learning by DeepLearning.ai <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Machine Learning by Stanford University (Prof. Andrew Ng) <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Programming for Everybody (Python) by University of Michigan <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Digital Image and Video Processing by Northwestern University <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Machine Learning A-Z: Hands-On Python & R In Data Science <span class="text-muted text-sm">on Udemy</span></li>
+  <li>Convolutional Neural Networks by DeepLearning.ai <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Practical Data Structures and Algorithms in Java <span class="text-muted text-sm">on Udemy</span></li>
+  <li>CS229 - Machine Learning <span class="text-muted text-sm">on Stanford Online</span></li>
+  <li>Neural Networks by University of Toronto (Prof. Geoffrey Hinton) <span class="text-muted text-sm">on Coursera</span></li>
+  <li>Practical Deep Learning for Coders Part 1 v1 (TensorFlow) & v2 (PyTorch) <span class="text-muted text-sm">by fast.ai</span></li>
+  <li>Cutting Edge Deep Learning for Coders Part 2 v2 (PyTorch) <span class="text-muted text-sm">by fast.ai</span></li>
+</ol>

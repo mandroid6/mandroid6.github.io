@@ -1,44 +1,45 @@
 /*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
+ * Clean Interface for mandroid6.github.io
+ * A modern, minimal design for a professional portfolio/blog
  */
 
+/* ============================================
+   CSS Custom Properties
+   ============================================ */
+:root {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-text: #2d3748;
+  --color-text-secondary: #718096;
+  --color-heading: #1a202c;
+  --color-accent: #3182ce;
+  --color-accent-hover: #2c5282;
+  --color-border: #e2e8f0;
+  --color-code-bg: #f7fafc;
+  --color-code-text: #e53e3e;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --max-width: 48rem;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --radius: 6px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --transition: 0.2s ease;
+}
 
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Body resets
- *
- * Update the foundational and global aspects of the page.
- */
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+/* ============================================
+   Reset & Base
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 html,
@@ -48,342 +49,489 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-sans);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
+  -webkit-text-size-adjust: 100%;
 }
-@media (min-width: 38rem) {
+
+@media (min-width: 48rem) {
   html {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  color: var(--color-text);
+  background-color: var(--color-bg);
 }
 
-/* No `:visited` state is required by default (browsers will use `a`) */
+/* ============================================
+   Typography
+   ============================================ */
 a {
-  color: #268bd2;
+  color: var(--color-accent);
   text-decoration: none;
+  transition: color var(--transition);
 }
-/* `:focus` is linked to `:hover` for basic accessibility */
+
 a:hover,
 a:focus {
+  color: var(--color-accent-hover);
   text-decoration: underline;
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-heading);
 }
 
-/* Body text */
+h1 { font-size: 1.875rem; }
+h2 { font-size: 1.375rem; border-bottom: 1px solid var(--color-border); padding-bottom: var(--spacing-sm); }
+h3 { font-size: 1.125rem; }
+h4, h5, h6 { font-size: 1rem; }
+
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-md);
 }
 
 strong {
-  color: #303030;
+  color: var(--color-heading);
+  font-weight: 600;
 }
-
 
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-md);
 }
 
 dt {
-  font-weight: bold;
+  font-weight: 600;
 }
+
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: var(--spacing-sm);
 }
 
-/* Misc */
+/* Horizontal rule */
 hr {
-  position: relative;
-  margin: 1.5rem 0;
+  margin: var(--spacing-xl) 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid var(--color-border);
 }
 
+/* Abbreviations */
 abbr {
   font-size: 85%;
-  font-weight: bold;
-  color: #555;
+  font-weight: 600;
+  color: var(--color-text-secondary);
   text-transform: uppercase;
 }
+
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+  border-bottom: 1px dotted var(--color-border);
 }
 
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: var(--font-mono);
 }
+
 code {
-  padding: .25em .5em;
+  padding: 0.15em 0.4em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
+  color: var(--color-code-text);
+  background-color: var(--color-code-bg);
+  border-radius: 4px;
 }
+
 pre {
   display: block;
   margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-md);
+  font-size: 0.85rem;
+  line-height: 1.5;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: var(--color-code-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow-x: auto;
 }
+
 pre code {
   padding: 0;
   font-size: 100%;
   color: inherit;
   background-color: transparent;
 }
+
 .highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--radius);
 }
+
 .highlight pre {
   margin-bottom: 0;
 }
 
-/* Quotes */
+/* Blockquotes */
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  padding: var(--spacing-sm) var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  color: var(--color-text-secondary);
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-bg-secondary);
+  border-radius: 0 var(--radius) var(--radius) 0;
 }
+
 blockquote p:last-child {
   margin-bottom: 0;
 }
-@media (min-width: 30rem) {
-  blockquote {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
-  }
-}
 
+/* Images */
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  margin: 0 0 var(--spacing-md);
+  border-radius: var(--radius);
 }
 
 /* Tables */
 table {
-  margin-bottom: 1rem;
-  border: 1px solid #e5e5e5;
+  width: 100%;
+  margin-bottom: var(--spacing-md);
+  border: 1px solid var(--color-border);
   border-collapse: collapse;
+  border-radius: var(--radius);
 }
+
 td,
 th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
 }
+
+th {
+  background-color: var(--color-bg-secondary);
+  font-weight: 600;
+}
+
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: var(--color-bg-secondary);
 }
 
-
-/*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-
-/*
- * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
- */
-
-.message {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
-}
-
-
-/*
- * Container
- *
- * Center the page content.
- */
-
+/* ============================================
+   Layout
+   ============================================ */
 .container {
-  max-width: 52rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
+  max-width: var(--max-width);
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  margin-left: auto;
   margin-right: auto;
 }
 
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+.content {
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-xl);
 }
-.masthead-title {
+
+/* Lead text */
+.lead {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: var(--color-text-secondary);
+}
+
+/* Message / Alert */
+.message {
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-md);
+  color: var(--color-text-secondary);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+}
+
+/* ============================================
+   Navigation / Header
+   ============================================ */
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-title a {
+  color: var(--color-heading);
+}
+
+.site-title a:hover {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: color var(--transition);
+  white-space: nowrap;
+}
+
+.site-nav a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.site-footer {
+  margin-top: var(--spacing-3xl);
+  padding: var(--spacing-xl) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--spacing-md);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
+/* ============================================
+   Hero / Intro Section
+   ============================================ */
+.hero {
+  padding: var(--spacing-2xl) 0 var(--spacing-xl);
+}
+
+.hero h1 {
   margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  padding-bottom: 0;
 }
 
+.hero .tagline {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.6;
+}
 
-/*
- * Posts and pages
- *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
- */
-
+/* ============================================
+   Posts and Pages
+   ============================================ */
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: var(--spacing-3xl);
 }
 
-/* Blog post or page title */
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: var(--color-heading);
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
 }
 
-/* Meta data line below post title */
+.post-title a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Post date */
 .post-date {
   display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-top: calc(-1 * var(--spacing-sm));
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
 }
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--color-border);
 }
+
 .related-posts {
   padding-left: 0;
   list-style: none;
 }
+
 .related-posts h3 {
   margin-top: 0;
 }
+
+.related-posts li {
+  padding: var(--spacing-sm) 0;
+}
+
 .related-posts li small {
   font-size: 75%;
-  color: #999;
+  color: var(--color-text-secondary);
 }
+
 .related-posts li a:hover {
-  color: #268bd2;
+  color: var(--color-accent);
   text-decoration: none;
 }
+
 .related-posts li a:hover small {
   color: inherit;
 }
 
+/* ============================================
+   Archive List
+   ============================================ */
+.archive-list {
+  list-style: none;
+  padding: 0;
+}
 
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
+.archive-list li {
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-md);
+}
 
+.archive-list li:last-child {
+  border-bottom: none;
+}
+
+.archive-date {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  min-width: 5rem;
+}
+
+/* ============================================
+   Section Cards
+   ============================================ */
+.section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.section h2:first-child {
+  margin-top: 0;
+}
+
+/* Experience items */
+.experience-item {
+  margin-bottom: var(--spacing-lg);
+  padding-left: var(--spacing-md);
+  border-left: 2px solid var(--color-border);
+}
+
+.experience-item:hover {
+  border-left-color: var(--color-accent);
+}
+
+.experience-item h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+/* ============================================
+   Pagination
+   ============================================ */
 .pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  overflow: hidden;
+  margin: var(--spacing-xl) 0;
+  font-family: var(--font-sans);
+  color: var(--color-text-secondary);
   text-align: center;
 }
 
-/* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: background-color var(--transition);
 }
+
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
 
-/* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  background-color: var(--color-bg-secondary);
+  text-decoration: none;
 }
 
 @media (min-width: 30rem) {
   .pagination {
-    margin: 3rem 0;
+    margin: var(--spacing-2xl) 0;
   }
   .pagination-item {
     float: left;
@@ -391,12 +539,107 @@ a.pagination-item:hover {
   }
   .pagination-item:first-child {
     margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
   }
   .pagination-item:last-child {
     margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+  }
+}
+
+/* ============================================
+   Course list
+   ============================================ */
+.course-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: course;
+}
+
+.course-list li {
+  counter-increment: course;
+  padding: var(--spacing-sm) 0;
+  padding-left: var(--spacing-xl);
+  position: relative;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.course-list li:last-child {
+  border-bottom: none;
+}
+
+.course-list li::before {
+  content: counter(course);
+  position: absolute;
+  left: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  width: 1.5rem;
+  text-align: center;
+}
+
+/* ============================================
+   Contact links
+   ============================================ */
+.contact-links {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+}
+
+.contact-links a {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  transition: all var(--transition);
+}
+
+.contact-links a:hover {
+  background-color: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* ============================================
+   Utility
+   ============================================ */
+.text-muted {
+  color: var(--color-text-secondary);
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 30rem) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    gap: var(--spacing-sm);
+  }
+
+  .archive-list li {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .site-footer .container {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
