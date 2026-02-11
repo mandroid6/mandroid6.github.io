@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <rect width="48" height="48" rx="10" fill="#ffffff"/>
-  <rect x="0.5" y="0.5" width="47" height="47" rx="9.5" fill="none" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="24" y="30" text-anchor="middle" fill="#003B70" font-family="Arial, sans-serif" font-weight="700" font-size="14">citi</text>
-  <path d="M13 16 Q24 6 35 16" stroke="#E31837" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-</svg>
